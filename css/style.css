@@ -1,0 +1,52 @@
+navbar-brand{
+
+    font-family: 'Cookie', cursive;
+}
+
+body{
+  background:#333;
+  color:white;
+}
+
+.navbar{
+  opacity:0.8;
+  border-bottom: 2px solid #007BFF;
+}
+
+
+#home-section{
+  background: url('../img/banner.png');
+  min-height:650px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+  
+#home-section .dark-overlay{
+ position: absolute;
+  top:0;
+  left: 0; 
+  background: rgba(0,0,0,0.7);
+  width:100%;
+   min-height: 650px;
+}
+#home-section .far{
+  color: #007BFF;
+}
+ .home-inner{
+  padding-top:150px;
+} 
+.navbar-nav li{
+  padding-right:20px;
+}
+.signupCard{
+  opacity: 0.9;
+}
+.navbar-brand{
+  opacity: 1.5;
+}
+
+#explore-section .far{
+ 
+  color: #007BFF;
+}
